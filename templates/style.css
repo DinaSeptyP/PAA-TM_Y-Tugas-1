@@ -1,0 +1,25 @@
+/* Container holding the image and the text */
+.container2 {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block2 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .img { 
+    width:80%; 
+    z-index: 0;  } 
+     
+    .text-over-img { 
+        z-index:1; 
+        font-size: 1.2em;
+        margin-top: -100px; 
+    }
